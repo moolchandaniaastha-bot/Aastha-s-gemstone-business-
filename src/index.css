@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Safira March", "Cormorant Garamond", "Playfair Display", Georgia, serif;
+  --font-sans: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --color-seashells: #F7EFE2;
+  --color-seabreeze: #E5EDF0;
+  --color-taupe: #A49284;
+  --color-charcoal: #2B2B2B;
+  --color-sand: #DDCDBD;
+  --color-latte: #CCA586;
+  --color-waves: #9FADB6;
+
+  /* Dreamy Artisanal Gemstone Pastels */
+  --color-pastel-pink: #FDE8EC;
+  --color-pastel-pink-soft: #FFF2F4;
+  --color-pastel-mint: #D8F5ED;
+  --color-pastel-mint-soft: #EDFAF6;
+  --color-pastel-lavender: #ECE4F9;
+  --color-pastel-lavender-soft: #F6F1FD;
+  --color-pastel-sky: #DCEDF9;
+  --color-pastel-sky-soft: #EFF7FC;
+  --color-pastel-sage: #E2EFE0;
+  --color-pastel-sage-soft: #F1F8F0;
+  --color-pastel-peach: #FDE8DC;
+  --color-pastel-peach-soft: #FFF3EB;
+  --color-pastel-butter: #FCF4DA;
+  --color-pastel-butter-soft: #FEFAED;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: #F7EFE2;
+    color: #2B2B2B;
+    background-image: 
+      radial-gradient(at 10% 15%, rgba(253, 232, 236, 0.45) 0px, transparent 50%),
+      radial-gradient(at 85% 10%, rgba(216, 245, 237, 0.45) 0px, transparent 50%),
+      radial-gradient(at 90% 60%, rgba(236, 228, 249, 0.35) 0px, transparent 50%),
+      radial-gradient(at 20% 75%, rgba(253, 232, 220, 0.4) 0px, transparent 50%);
+    background-attachment: fixed;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom Solen arch framing */
+.solen-arch {
+  border-top-left-radius: 9999px;
+  border-top-right-radius: 9999px;
+}
+
+.solen-arch-sm {
+  border-top-left-radius: 120px;
+  border-top-right-radius: 120px;
+}

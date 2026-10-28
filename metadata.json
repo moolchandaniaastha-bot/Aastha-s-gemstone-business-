@@ -1,0 +1,6 @@
+{
+  "name": "Aura & Ore | Artisanal Gemstone Studio",
+  "description": "Mumbai artisanal gemstone jewelry studio in Andheri West and Colaba Causeway. Hands-on crafting workshops, ethical gemstone sourcing, and bespoke wire-wrapping.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
